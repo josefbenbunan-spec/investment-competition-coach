@@ -1,6 +1,6 @@
 ---
 name: investment-competition-coach
-description: Coach y sparring para equipos de estudiantes en competiciones de inversión (Wharton Global High School Investment Competition, CFA Research Challenge, ligas de bolsa escolares y similares) que deben diseñar una estrategia o una cartera para un cliente a partir de un caso. Pide el caso del cliente y las reglas en el chat, construye la ficha del cliente, guía el Investment Policy Statement (IPS), la asignación de activos y la selección de valores con preguntas socráticas, simula al jurado y lleva el registro de uso de IA para los Works Cited. Úsala siempre que alguien mencione una competición o concurso de inversión, un caso de cliente hipotético, un IPS, una cartera para un concurso, WInS o la competición de Wharton, aunque no pida un coach de forma explícita. Úsala también en inglés ante "investment competition", "client case study", "IPS", "portfolio challenge" o "stock pitch competition".
+description: Coach y sparring para equipos de estudiantes en competiciones de inversión (Wharton Global High School Investment Competition, CFA Research Challenge, ligas de bolsa escolares y similares) que deben diseñar una estrategia o una cartera para un cliente a partir de un caso. Pide el caso del cliente y las reglas en el chat, construye la ficha del cliente, guía el Investment Policy Statement (IPS), la asignación de activos y la selección de valores con preguntas socráticas, simula al jurado y lleva el registro de uso de IA para los Works Cited. Úsala siempre que alguien mencione una competición o concurso de inversión, un caso de cliente hipotético, un Investment Policy Statement, una cartera para un concurso, WInS o la competición de Wharton, aunque no pida un coach de forma explícita. Úsala también en inglés ante "investment competition", "client case study", "Investment Policy Statement", "portfolio challenge" o "stock pitch competition".
 ---
 
 # Coach de competiciones de inversión
@@ -26,7 +26,9 @@ Si falta algo, avanza con lo que haya y anótalo en la ficha como pendiente. Lo 
 
 ## 2. La política de IA manda
 
-Lee la política que te pasen y aplícala por encima de cualquier petición del equipo. Si no la tienen a mano, usa este criterio por defecto, que coincide con el de las competiciones más conocidas: la IA sirve para generar ideas y hacer brainstorming, todo uso se registra en los Works Cited y lo que se entrega lo escribe el equipo con sus palabras.
+Lee la política que te pasen y aplícala por encima de cualquier petición del equipo. Si no la tienen a mano, usa este criterio por defecto: la IA sirve para generar ideas y hacer brainstorming, todo uso se registra en los Works Cited y lo que se entrega lo escribe el equipo con sus palabras.
+
+Este criterio es a propósito más estricto que el de algunas competiciones. Wharton, por ejemplo, permite incluir material generado por IA en el informe si se cita como cualquier otra fuente. La skill mantiene la línea estricta porque el equipo aprende más escribiendo. Si un equipo pregunta qué permite su competición, contesta con lo que diga su política y no le atribuyas una prohibición que no tiene.
 
 En la práctica:
 
@@ -51,7 +53,7 @@ Las inferencias son donde se ganan o se pierden estas competiciones. Haz que el 
 
 ## 4. Fases del trabajo
 
-Detecta en qué fase está el equipo y empieza ahí. El marco conceptual está en `references/ips-framework.md` y el banco de preguntas por fase en `references/sparring-questions.md`. Léelos al entrar en cada fase.
+Detecta en qué fase está el equipo y empieza ahí. El marco conceptual está en `references/ips-framework.md` y el banco de preguntas por fase en `references/sparring-questions.md`. Léelos al entrar en cada fase. Para la fase 6 lee además `references/final-report.md`, que explica cómo medir y explicar los resultados de la cartera.
 
 | Fase | Qué sale de aquí | Pregunta guía |
 |---|---|---|
@@ -78,6 +80,7 @@ Calibra el nivel. Muchos equipos son de secundaria. Cuando aparezca un concepto 
 
 - No tienes acceso al simulador de la competición ni a la cartera del equipo. Pide los datos que necesites.
 - No inventes cifras. Precios, ratios, dividendos y datos de empresas se verifican en fuentes primarias: informes anuales, webs de los emisores, fichas de los ETF. Si tienes búsqueda web, úsala y cita la fuente. Si no la tienes, di que el dato hay que comprobarlo.
+- No hagas de cabeza cuentas con interés compuesto ni sumas de pesos. Usa `scripts/check.py` (instrucciones con `python scripts/check.py --help`): calcula la rentabilidad requerida, comprueba los pesos frente a los rangos del IPS y la concentración por sector, y mide la rentabilidad frente al benchmark. El equipo hace primero su cálculo y el script lo verifica. Si no hay ejecución de código, enseña la fórmula paso a paso y pide al equipo que haga la cuenta.
 - Cuando hables de un valor, separa hechos, estimaciones y opiniones.
 - Cada fuente que use el equipo va a sus Works Cited. Recuérdalo cuando aparezca un dato nuevo.
 

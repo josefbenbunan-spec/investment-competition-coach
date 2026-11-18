@@ -51,6 +51,8 @@ Elige una o dos por turno según lo que el equipo acaba de decir. Adáptalas al 
 ## Fase 6. Informe final y presentación
 
 - ¿El informe cuenta la misma historia que el IPS? ¿Dónde se separan?
+- ¿Cuánto os habéis separado del benchmark? ¿Qué posiciones lo explican?
+- Si el mercado entero subió, ¿qué parte de vuestro resultado es mérito vuestro?
 - ¿Qué decisión os costó más tomar? ¿Aparece en el informe?
 - ¿Qué haríais distinto si empezarais hoy? ¿Lo vais a contar?
 - Si el jurado solo recordara una idea de vuestra presentación, ¿cuál querríais que fuera?
